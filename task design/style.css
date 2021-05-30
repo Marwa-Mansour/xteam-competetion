@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 750px;
+    background-image: url(./imgs/blue_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* z-index: -2; */
+
+}
+/* .imgbtn{
+    position: absolute;
+    top: 85px;
+    left: 1300px;
+    z-index: -1;
+} */
+.imgbt{
+    position: absolute;
+    left: -250px;
+    bottom: -120px;
+}
+nav{
+    height: 250px;
+    padding: 50px;
+    
+    
+}
+.logo{
+    width: 150px;
+    height: 100px;
+    /* float: left; */
+    display: inline-block;
+    margin-top: -40px;
+
+}
+
+ul{
+    list-style-type: none;
+    display: inline;
+    margin-top: 40px;
+}
+
+li{
+   float: left;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+li a{
+    display: block;
+    text-decoration: none;
+    color: rgb(8, 8, 117);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+li a:hover{
+    cursor: pointer;
+    
+    border-bottom: darkred solid 3px;
+    
+}
+
+.lognav{
+    float: right;
+    margin-right: 100px;
+    width: 100px;
+    height: 50px;
+    line-height: 25px;
+    text-align: center;
+    background-image: url(./imgs/login_button_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100px 30px;
+   
+
+}
+
+
+.head1{
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+}
+
+.headTxt{
+    width: 600px;
+}
+
+.headTxt h1{
+    font-size: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(8, 8, 99);
+    margin-bottom: 30px;
+    
+}
+
+.headTxt p{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(8, 8, 99);
+}
+
+.headFigs{
+    position: absolute;
+    width: 600px;
+    left: 810px;
+}
+.img1{
+    position: absolute;
+    top: -250px;
+    left: -50px;
+}
+
+.img2{
+    position: absolute;
+    top: -200px;
+    left: 150px;
+}
+
+.img3{
+    position: absolute;
+    top: 150px;
+    left: 90px;
+    opacity: 0.99;
+}
+.secsec{
+    height: auto;
+}
+
+.pSecond{
+    position: relative;
+}
+
+.imgsec{
+    position: absolute;
+    width: 65%;
+    left: 350px;
+    top: 120px;
+}
+
+.super{
+    position: absolute;
+    width: 380px;
+    text-align: center;
+    top: 200px;
+    left: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.real{
+    position: absolute;
+    width: 420px;
+    text-align: center;
+    top: 320px;
+    left: 560px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.disc{
+    position: absolute;
+    width: 450px;
+    text-align: center;
+    top: 610px;
+    left: 940px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.whyKud{
+    position: absolute;
+    width: 350px;
+    text-align: center;
+    top: 610px;
+    left: 150px;
+}
+
+.whytxt{
+    position: absolute;
+    width: 350px;
+    text-align: left;
+    top: 730px;
+    left: 240px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    
+}
+
+.imgss{
+    
+    position: relative;
+    height: auto;
+}
+
+.imgss1{
+    position: absolute;
+    top: 1100px;
+    left: 150px;
+ 
+}
+
+.imgss2{
+    position: absolute;
+    top: 1000px;
+    left: 450px;
+ 
+}
+
+.imgss3{
+    position: absolute;
+    top: 1130px;
+    left: 1050px;
+ 
+}
+
+.imgstxt{
+    position: absolute;
+    top: 1470px;
+    left: 590px;
+    text-align: center;
+    width: 300px;
+}
+
